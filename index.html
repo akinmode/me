@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <meta name="description" content="">
+ <meta name="author" content="">
+ <link rel="icon" href="">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+<title>Akinwale Modupe Akinjiola | Portfolio</title>
+</head>
+<body class="bg-light">
+<section class="container mt-3 p-1 bg-white border rounded">
+<section class="row mt-1">
+  <!--CARD-->
+  <section class="col-sm-3">
+    <section class="card bg-primary" style="width: 18rem;">
+      <img class="card-img-top shadow" src="passport.jpg" alt="my passport">
+      <section class="card-body text-center">
+        <h5 class="card-title">Akinwale M. AKINJIOLA</h5>
+        <p class="card-text"><em>Data Scientist</em></p>
+      </section>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>Age: </strong>30 Years</li>
+        <li class="list-group-item"><strong>Degree: </strong>DVM(UI), MVSc(UI)</li>
+        <li class="list-group-item"><strong>Email Address: </strong>akinjil@gmail.com, akinjil@yahoo.com</li>
+        <li class="list-group-item"><strong>Phone Numbers: </strong>(+234)8077673573, (+234)8036601423, (+234)8150608167</li>
+        <li class="list-group-item"><strong>Facebook: </strong></li>
+        <li class="list-group-item"><strong>LinkedIn: </strong></li>
+        <li class="list-group-item"><strong>GitHub: </strong></li>
+        <li class="list-group-item"><strong>CV: </strong></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="col ">
+    <section class="nav w-100 bg-primary">
+      <button class="btn btn-primary" onclick="openCity(event, 'London')" id="defaultOpen">About Me</button>
+      <button class="btn btn-primary" onclick="openCity(event, 'Paris')">Resume</button>
+      <button class="btn btn-primary" onclick="openCity(event, 'Tokyo')">Portfolio</button>
+      <button class="btn btn-primary" onclick="openCity(event, 'Tokyo')">Contacts</button>
+    </section>
+
+    <section id="London" class="tabcontent p-2">
+      <h3 class="display-4 text-center">Akinwale Modupe AKINJIOLA</h3>
+      <section class="" style="min-height:150px;">
+        p
+      </section>
+      <h4 class="">WHO AM I</h4><hr/>
+      <p>I am a Veterinary Surgeon </p>
+    </section>
+
+    <div id="Paris" class="tabcontent p-2">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent p-2">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+  </section>
+</section>
+
+<!--FOOTER-->
+<section class="text-center mt-1 pb-2 pt-2 bg-primary">
+  <p class="mt-1 text-light"><label>Edited by Akinwale Modupe Akinjiola 2018.</label></p>
+</section>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+ </html>
